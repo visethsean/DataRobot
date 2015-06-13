@@ -54,7 +54,7 @@ This project aims for the internship at DataRobot.
         -   Then I tried Ridge and Lasso which are very applicable for data with many predictors. But, they did not really               get a good result comparing to previous models.
         -   Next, I tried PCR, another regression technique for data with many predictors. Again, the result was not very                helpful.
         -   Last, I tried cross-validatoin with Lasso, Ridge and PCR.
-        -   The best result so far is the Linear Regression with one most correlated predictor
+        -   The best result so far is the Linear Regression with one most correlated predictor.
 
 
 
