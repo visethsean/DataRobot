@@ -10,10 +10,10 @@ This project aims for the internship at DataRobot.
 6.	Google Prediction API (GPA):
     a.  Using GPA to build the model for regression analysis.
     b.  Pros: Easy to use; just upload data for model source and then build the model.
-    c.  Cons: GAP offers only 2 types of analysis tool: regression and classification. Both tools require many observations          in order to make good prediction. And as expected, it took lots of time to build the model when more data was added.         They need the input data to be in an exact format: response be the first columns, while the remainings be the                predictors. There is no functionality of data partition as well as dimension reduction (even simple task like                ignoring some predictors in building the model). Also, there's no option for performing analysis with                        cross-vaildation.
+    c.  Cons: GAP offers only 2 types of analysis tool: regression and classification. Both tools require many observations          in order to make good prediction. And as expected, it took lots of time to build the model when more data was added.         They need the input data to be in an exact format: response be the first columns, while the remainings be the                predictors. There is no functionality of data partition as well as dimension reduction (even simple task like                ignoring some predictors in building the model). Also, there's no option for performing analysis with                        cross-validation.
     d.  Model Summary from GPA:
+        
         200 OK
-         
         - Hide headers -
          
         cache-control:  private, max-age=0, must-revalidate, no-transform
