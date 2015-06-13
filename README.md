@@ -6,7 +6,7 @@ This project aims for the internship at DataRobot.
 2.	Number of Instances: 39644 (at the time I downloaded)
 3.	Number of Attributes: 61 (including target variable)
 4.	Missing Attribute Values: None
-5.	Task: Regression-Building predictive models for predicting the number of shares (attribute: shares) for a particular article     published by Mashable (www.mashable.com)
+5.	Task: Regression-Building predictive models for predicting the number of shares (attribute: shares) for a particular         article published by Mashable (www.mashable.com)
 6.	Google Prediction API (GPA):
     a.  Using GPA to build the model for regression analysis.
     b.  Pros: Easy to use; just upload data for model source and then build the model.
