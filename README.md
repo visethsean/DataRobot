@@ -47,11 +47,14 @@ This project aims for the internship at DataRobot.
         -   Compute correlation between response and predictors: each predictor seems to be not really                                   correlated with the response as the highest correclation score is only: 0.135 (predictor: kw_avg_avg).
         -   Visualize relationship between repsone and its highest correlated predictor
         -   The visualization display some data points to be outliers; so, to avoid being influenced by them, I removed those             data points.
-    d.  Approach:
-        -   Linear Regression with the most correlated variable: I tried polynomail models and selected degree = 3 as the                best according to p-value.
+    d.  Approach (using train/test set and cross-validation):
+        -   Linear Regression with the most correlated variable: I tried polynomail models and selected degree = 3 as the                best according to p-value. And the RMSE for test data is 225.41 
         -   Since there're a lot of predictors, I tried some methods to reduce the number of predictors: Forward subset,                 Backward subset. Both suggest slightly different number of predictors in term of different metrics: Adjusted R^2,             Cp, BIC.
-        -   
+        -   Since the subset selection suggest to use more predictors, I tried a bunch of Multiple Linear Regression models              with a bunch of different predictors accordingly.
+        -   Then I tried Ridge and Lasso which are very applicable for data with many predictors. But, they did not really               get a good result comparing to previous models.
+        -   Next, I tried PCR, another regression technique for data with many predictors. Again, the result was not very                helpful.
+        -   Last, I tried cross-validatoin with Lasso, Ridge and PCR.
+        -   The best result so far is the Linear Regression with one most correlated predictor
 
-7.	
 
 
