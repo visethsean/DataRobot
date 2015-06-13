@@ -41,7 +41,17 @@ This project aims for the internship at DataRobot.
         }
     
 7.	R Script:
-a. dsaf
+    a.  Initial data processing: remove string predictor, and other irrelevant/duplicate predictors.
+    b.  Sampling data: since the data is big, I randomly partitioned the data into training (5000) and test set (1000). 
+    c.  Data exploration:
+        -   Compute correlation between response and predictors: each predictor seems to be not really                                   correlated with the response as the highest correclation score is only: 0.135 (predictor: kw_avg_avg).
+        -   Visualize relationship between repsone and its highest correlated predictor
+        -   The visualization display some data points to be outliers; so, to avoid being influenced by them, I removed those             data points.
+    d.  Approach:
+        -   Linear Regression with the most correlated variable: I tried polynomail models and selected degree = 3 as the                best according to p-value.
+        -   Since there're a lot of predictors, I tried some methods to reduce the number of predictors: Forward subset,                 Backward subset. Both suggest slightly different number of predictors in term of different metrics: Adjusted R^2,             Cp, BIC.
+        -   
+
 7.	
 
 
