@@ -41,7 +41,7 @@ This project aims for the internship at DataRobot.
         }
     
 7.	R Script:
-8.	    dsaf
+a. dsaf
 7.	
 
 
